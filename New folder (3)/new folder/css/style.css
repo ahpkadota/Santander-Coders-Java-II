@@ -1,0 +1,63 @@
+
+#main {
+    display: flex;
+    max-width: 1200px;
+    border: black;
+    border-style: solid;
+    font-size: 28px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+    #main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #caixa1 {
+        width: 0.4em;
+        position: relative;
+    }
+    #caixa2 {
+        width: 0.55em;
+        position: relative;
+    }
+    #caixa3 {
+        width: 1em;
+        z-index: -1;
+    }
+}
+h1 {
+    width: 100vw;
+    height: 20vh;
+    border: gold;
+    border-style: solid;
+    background-color: greenyellow;
+}
+h2 {
+    font-size: 1em;
+}
+p {
+    font-size: 0.46em;
+}
+strong {
+    font-size: 1.15em;
+}
+#caixa1 {
+    width: 20.83%;
+    border: gold;
+    border-style: solid;
+    background-color: greenyellow;
+}
+#caixa2 {
+    width: 66%;
+    border: red;
+    border-style: solid;
+    background-color: orange;
+}
+#caixa3 {
+    width: 8.3%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border: blue;
+    border-style: solid;
+    background-color: violet;
+}
